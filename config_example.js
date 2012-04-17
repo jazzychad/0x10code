@@ -1,4 +1,5 @@
-exports.port = 80;
+exports.port = process.env.PORT || 3000;
+exports.mongodb_uri = process.env.MONGOLAB_URI;
 exports.sitename = "0x10co.de";
 exports.links = [
 	{

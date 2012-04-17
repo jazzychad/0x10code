@@ -2,12 +2,12 @@
 	"name": "0x10code",
 	"version": "0.0.1",
 	"dependencies": {
-		"express": "*",
-		"mongoose": "*",
-		"node-markdown": "*",
-		"moment": "*",
-		"jade": "*",
-		"markdown": "*"
+		"express": "2.5.9",
+		"mongoose": "2.5.14",
+		"node-markdown": "0.1.0",
+		"moment": "1.5.1",
+		"jade": ">= 0.0.1",
+		"markdown": "0.3.1"
 	}
 }
 

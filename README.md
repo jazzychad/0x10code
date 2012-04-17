@@ -49,3 +49,22 @@ Modify the server path and the execution user accordingly. You will now be able 
     stop 0x10code
 
 The default setup is to start the server automatically upon server startup. You can change these instructions in the 0x10code.conf file.
+
+## Run on Heroku
+
+To run on heroku as a nodejs app, clone this repo, run the following commands locally:
+
+    npm install -d
+    heroku apps:create --stack cedar <app_name_here>
+    heroku addons:add mongolab:starter # free 240mb mongodb from MongoLab
+    export MONGOLAB_URI=mongodb://localhost/0x10code
+
+To run the app locally, make sure you have mongodb running and the full heroku toolbelt installed (including foreman):
+
+    foreman start
+
+This should start the app on localhost:5000
+
+To deploy, commit your changes and push to heroku!
+
+    git push heroku master
