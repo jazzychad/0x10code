@@ -2,9 +2,11 @@ body {
 	padding-bottom: 40px;
 }
 .navbar .brand {
-	padding: 0;
-	margin-left: 0;
-	margin-right: 16px;
+        /*
+        padding: 0;
+        margin-left: 0;
+        margin-right: 16px;
+        */
 }
 .navbar-inner {
 	-webkit-border-radius: 0;
@@ -121,7 +123,7 @@ ul.list a {
 	color: #666;
 }
 ul.list li:nth-child(odd) {
-	background: #eee;
+	background-color: #333;
 }
 div.accordion-heading {
 	background: #fff;

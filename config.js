@@ -1,6 +1,6 @@
 exports.port = process.env.PORT || 3000;
 exports.mongodb_uri = process.env.MONGOLAB_URI;
-exports.sitename = "0x10co.de";
+exports.sitename = "dcpu0x10c.herokuapp.com";
 exports.links = [
 	{
 		title:	"0x10c Forum",
